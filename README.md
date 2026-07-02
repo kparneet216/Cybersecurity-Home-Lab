@@ -69,3 +69,8 @@ The environment consists of multiple virtual machines connected through a NAT ne
 
 ## Project Status
 This repository is currently being expanded with practical exercises, screenshots, reports and documentation.
+
+## Practical Exercises
+
+- Network Connectivity Testing
+- Service Enumeration using Nmap
