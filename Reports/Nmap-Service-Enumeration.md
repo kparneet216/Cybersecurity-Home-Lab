@@ -1,52 +1,71 @@
-# Nmap Service Enumeration
+# Advanced Nmap Scanning
 
 ## Objective
 
-The objective of this exercise was to identify active hosts, open ports and running services on the Metasploitable2 virtual machine.
+Perform advanced network reconnaissance against the Metasploitable2 virtual machine.
 
 ---
 
-## Environment
+## Host Discovery
 
-Attacking Machine:
-- Kali Linux
+Command:
 
-Target Machine:
-- Metasploitable2
+nmap -sn 192.168.x.0/24
 
-Network:
-- VMware Workstation NAT
+Purpose:
 
----
-
-## Tool Used
-
-Nmap
+Identify active hosts on the local network.
 
 ---
 
-## Command
+## TCP SYN Scan
 
-```bash
+Command:
+
+nmap -sS <Target-IP>
+
+Purpose:
+
+Identify open TCP ports using a SYN scan.
+
+---
+
+## Service Detection
+
+Command:
+
 nmap -sV <Target-IP>
-```
+
+Purpose:
+
+Determine services and application versions running on the target.
 
 ---
 
-## Purpose
+## Operating System Detection
 
-The `-sV` option performs service version detection, allowing identification of applications running on open ports.
+Command:
+
+nmap -O <Target-IP>
+
+Purpose:
+
+Attempt to identify the target operating system.
 
 ---
 
-## Findings
+## Aggressive Scan
 
-The scan identified multiple open ports and network services including FTP, SSH, HTTP and SMB.
+Command:
+
+nmap -A <Target-IP>
+
+Purpose:
+
+Perform OS detection, version detection, script scanning and traceroute.
 
 ---
 
-## Learning Outcome
+## Outcome
 
-This exercise demonstrated how attackers and security professionals enumerate network services before conducting further security assessments.
-
-It also reinforced the importance of identifying unnecessary services that could increase an organization's attack surface.
+Successfully collected information about the target system for future security assessment.
