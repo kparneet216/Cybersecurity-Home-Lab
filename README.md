@@ -1,78 +1,147 @@
 # Cybersecurity Home Lab
 
-## Overview
+## Project Overview
 
-This project documents the design and implementation of my cybersecurity home lab built using VMware Workstation. The lab was created to safely practice networking, vulnerability assessment, penetration testing, and network traffic analysis using industry-standard tools.
+This repository documents my hands-on cybersecurity home lab built using VMware Workstation. The lab was created to practice networking, vulnerability assessment, packet analysis, and penetration testing techniques in a safe and isolated environment.
 
-The environment consists of multiple virtual machines connected through a NAT network, allowing realistic cybersecurity exercises in an isolated and controlled environment.
-
----
-
-## Project Objectives
-
-- Build a secure virtual cybersecurity lab
-- Practice vulnerability assessment techniques
-- Perform network reconnaissance
-- Analyse network traffic
-- Learn penetration testing methodologies
-- Develop hands-on cybersecurity skills
+The environment consists of Kali Linux as the attacker machine, Windows 7 as a client machine, and Metasploitable2 as the intentionally vulnerable target.
 
 ---
 
 ## Lab Environment
 
-| Component | Description |
-|-----------|-------------|
-| VMware Workstation | Virtualization platform |
-| Kali Linux | Attacking machine |
-| Windows 7 | Client operating system |
-| Metasploitable2 | Intentionally vulnerable target |
-| NAT Network | Virtual network connecting all VMs |
+### Virtual Machines
+
+- Kali Linux (Attacker)
+- Windows 7
+- Metasploitable2 (Target)
+
+### Virtualization
+
+- VMware Workstation
+- NAT Network
 
 ---
 
 ## Tools Used
 
-- VMware Workstation
 - Kali Linux
-- Windows 7
-- Metasploitable2
+- VMware Workstation
 - Nmap
 - Wireshark
 - Metasploit Framework
-- DVWA (Damn Vulnerable Web Application)
+- Linux Terminal
 
 ---
 
 ## Skills Demonstrated
 
-- Virtual Machine Configuration
-- Network Configuration
-- Vulnerability Assessment
-- Port Scanning
+- Virtual Lab Setup
+- Network Scanning
+- Host Discovery
 - Service Enumeration
-- Packet Analysis
-- Penetration Testing
-- Linux Administration
-- Documentation
+- Operating System Detection
+- Packet Capture and Analysis
+- Vulnerability Assessment
+- Exploitation using Metasploit
+- Linux Command Line
+- Technical Documentation
+
+---
+
+## Practical Exercises Completed
+
+- Network Connectivity Testing
+- Host Discovery using Nmap
+- TCP SYN Scan
+- Service Version Detection
+- Operating System Detection
+- Aggressive Nmap Scan
+- ICMP Packet Analysis
+- DHCP Packet Analysis
+- Vulnerability Assessment
+- Samba Exploitation using Metasploit
 
 ---
 
 ## Repository Structure
 
-- Images
-- Reports
-- Network Diagram
-- Commands
+```
+Cybersecurity-Home-Lab
+│
+├── Images
+├── Reports
+├── Commands
+├── Network-Diagram
+└── README.md
+```
 
 ---
 
-## Project Status
-This repository is currently being expanded with practical exercises, screenshots, reports and documentation.
+## Reports Included
 
-## Practical Exercises
+- Advanced Nmap Scanning
+- Vulnerability Assessment
+- Samba Exploitation
+- Wireshark Packet Analysis
 
-- Network Connectivity Testing
-- Service Enumeration using Nmap
-- Packet Analysis using Wireshark
-- Advanced Nmap Reconnaissance
+---
+
+## Learning Outcomes
+
+Through this project I gained practical experience in:
+
+- Setting up a virtual penetration testing lab
+- Discovering hosts on a network
+- Identifying running services
+- Performing vulnerability assessment
+- Understanding network traffic
+- Using Wireshark for packet analysis
+- Using Metasploit Framework
+- Documenting cybersecurity activities
+
+---
+
+## Screenshots
+
+The repository contains screenshots demonstrating:
+
+- VMware Environment
+- Kali Linux
+- Windows 7
+- Metasploitable2
+- Ping Tests
+- Nmap Scans
+- Wireshark Analysis
+- Metasploit Console
+- Samba Exploitation
+
+---
+
+## Disclaimer
+
+This project was performed only within a personal virtual lab environment using intentionally vulnerable systems (Metasploitable2). All activities were conducted for educational and learning purposes.
+
+---
+
+## Future Improvements
+
+- FTP Vulnerability Assessment
+- UnrealIRCd Exploitation
+- Web Application Testing (DVWA)
+- Nikto Web Server Scanning
+- Hydra Password Auditing
+- Burp Suite Basics
+- Windows Privilege Enumeration
+
+---
+
+## Author
+
+**Parneet Kaur**
+
+Bachelor of Information and Communication Technology (Cyber Security)
+
+Western Sydney University
+
+Expected Graduation: July 2027
