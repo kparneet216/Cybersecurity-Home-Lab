@@ -7,8 +7,35 @@ ip a
 ping <IP Address>
 
 
-## Nmap Service Scan
-nmap -sV <IP Address>
+# Nmap Commands Used
+
+## Ping Scan
+
+nmap -sn
+
+---
+
+## SYN Scan
+
+nmap -sS
+
+---
+
+## Version Detection
+
+nmap -sV
+
+---
+
+## OS Detection
+
+nmap -O
+
+---
+
+## Aggressive Scan
+
+nmap -A
 
 
 ## Start Wireshark
