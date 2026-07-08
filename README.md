@@ -74,3 +74,5 @@ This repository is currently being expanded with practical exercises, screenshot
 
 - Network Connectivity Testing
 - Service Enumeration using Nmap
+- Packet Analysis using Wireshark
+- Advanced Nmap Reconnaissance
